@@ -1,0 +1,158 @@
+$cor1: #ECABDA;
+$cor2: #60D9A7;
+$cor3: #D97184;
+$cor4: #99D4A6;
+$cor5: #9DE3FA;
+$primary: 'Julius Sans One';
+$secundary: 'Imprima';
+
+
+
+.sec-contra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .contra-area {
+        width: 60vw;
+        background-color: #c4c4c475;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 250px;
+        border-bottom: 2px solid #C4C4C4;
+
+        img {
+            width: 110px;
+            margin-left: 5vw;
+            margin-right: 50px;
+        }
+
+        .contra-text {
+            width: 33vw;
+
+            h2 {
+                font-family: $primary, sans-serif;
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-family: $secundary, sans-serif;
+                font-size: 15px;
+                font-weight: 300;
+                width: 25vw;
+                margin-left: 20px;
+            }
+
+        }
+
+        a {
+            font-family: $secundary, sans-serif;
+            position: relative;
+            text-decoration: none;
+            color: #0f0f0f;
+            padding: 10px 20px;
+            background-color: $cor2;
+            top: 70px;
+            right: 20px;
+            border-radius: 10px;
+            font-weight: 600;
+            text-shadow: 1px 1px #f5efef57;
+
+            &:hover {
+                transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                background-color: $cor5;
+                color: #ffffff;
+            }
+        }
+
+    }
+}
+
+
+.sec-esco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.esco-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 30px;
+
+    h2 {
+        font-family: $secundary;
+        font-size: 15px;
+        margin-bottom: 10px;
+        padding: 5px;
+        background-color: #99D4A6;
+        color: rgb(34, 33, 33);
+        font-weight: 500;
+    }
+
+    img {
+        width: 300px;
+        height: 240px;
+
+    }
+
+    a {
+        font-family: $secundary;
+        font-size: 14px;
+        text-decoration: none;
+        color: #0f0f0f;
+        font-weight: 600;
+        background-color: #99D4A6;
+        margin-top: 20px;
+        padding: 5px 15px;
+        width: 100px;
+    }
+}
+
+.blues {
+    h2 {
+        background-color: $cor5;
+
+    }
+
+    a {
+        background-color: $cor5;
+    }
+}
+
+.esco-box:hover .info-box {
+    display: flex;
+}
+
+.info-box {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: inherit;
+    height: inherit;
+    display: none;
+    /* ele tirou display para n aparecer a info*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    margin-top: 40px;
+    height: 240px;
+
+    .pargraf {
+        font-family: $secundary;
+        width: 200px;
+
+    }
+
+
+}
+
+

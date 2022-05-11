@@ -1,0 +1,175 @@
+.sec-contra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec-contra .contra-area {
+  width: 60vw;
+  background-color: #c4c4c475;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 250px;
+  border-bottom: 2px solid #C4C4C4;
+}
+
+.sec-contra .contra-area img {
+  width: 110px;
+  margin-left: 5vw;
+  margin-right: 50px;
+}
+
+.sec-contra .contra-area .contra-text {
+  width: 33vw;
+}
+
+.sec-contra .contra-area .contra-text h2 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.sec-contra .contra-area .contra-text p {
+  font-family: "Imprima", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  width: 25vw;
+  margin-left: 20px;
+}
+
+.sec-contra .contra-area a {
+  font-family: "Imprima", sans-serif;
+  position: relative;
+  text-decoration: none;
+  color: #0f0f0f;
+  padding: 10px 20px;
+  background-color: #60D9A7;
+  top: 70px;
+  right: 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-shadow: 1px 1px #f5efef57;
+}
+
+.sec-contra .contra-area a:hover {
+  -webkit-transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  background-color: #9DE3FA;
+  color: #ffffff;
+}
+
+.sec-esco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.esco-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 300px;
+  max-width: 400px;
+  margin: 30px;
+}
+
+.esco-box h2 {
+  font-family: "Imprima";
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #99D4A6;
+  color: #222121;
+  font-weight: 500;
+}
+
+.esco-box img {
+  width: 300px;
+  height: 240px;
+}
+
+.esco-box a {
+  font-family: "Imprima";
+  font-size: 14px;
+  text-decoration: none;
+  color: #0f0f0f;
+  font-weight: 600;
+  background-color: #99D4A6;
+  margin-top: 20px;
+  padding: 5px 15px;
+  width: 100px;
+}
+
+.blues h2 {
+  background-color: #9DE3FA;
+}
+
+.blues a {
+  background-color: #9DE3FA;
+}
+
+.esco-box:hover .info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info-box {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.568);
+  width: inherit;
+  height: inherit;
+  display: none;
+  /* ele tirou display para n aparecer a info*/
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  width: 300px;
+  margin-top: 40px;
+  height: 240px;
+}
+
+.info-box .pargraf {
+  font-family: "Imprima";
+  width: 200px;
+}
+/*# sourceMappingURL=styleCa.css.map */

@@ -1,0 +1,184 @@
+$cor1: #ECABDA;
+$cor2: #60D9A7;
+$cor3: #D97184;
+$cor4: #99D4A6;
+$cor5: #9DE3FA;
+$primary: 'Julius Sans One';
+$secundary: 'Imprima';
+
+//subtitulos usados
+
+.subtitulo-1 {
+
+    border-bottom: solid 5px $cor3;
+    font-family: $primary;
+
+}
+
+.subtitulo-2 {
+    font-family: $secundary;
+    font-weight: 600;
+    color: #C64068;
+    margin-top: 50px;
+}
+
+
+.tit-principal {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: $primary, sans-serif;
+
+
+    h1 {
+        text-align: center;
+        margin-top: 100px;
+        border-bottom: solid 5px $cor3;
+        padding-bottom: 5px;
+        margin-left: 80px;
+        margin-bottom: 100px;
+    }
+}
+
+.section-area-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .section-modulo-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        max-width: 1000px;
+
+        p {
+            font-family: $secundary, sans-serif;
+            margin-right: 50px;
+            margin-bottom: 50px;
+
+        }
+
+        img {
+            width: 330px;
+            margin-top: 30px;
+        }
+    }
+
+    .section-modulo-2 {
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: $secundary, sans-serif;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+            margin-left: 5px;
+        }
+
+        img {
+            width: 500px;
+            height: 300px;
+            margin: auto;
+            padding-top: 30px;
+
+        }
+    }
+
+    .section-modulo-3 {
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        h2 {
+            margin-bottom: 20px;
+            margin-top: 50px;
+        }
+
+        p {
+            font-family: $secundary, sans-serif;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+            margin-left: 5px;
+        }
+
+        img {
+
+
+            margin: auto;
+            padding-top: 30px;
+        }
+
+    }
+}
+
+ul {
+    li {
+        font-family: $secundary, sans-serif;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(160, 157, 157);
+    text-align: center;
+    font-size: 15px;
+}
+
+figure {
+    margin: auto;
+
+}
+
+.references {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 2px solid $cor1;
+    max-width: 1000px;
+
+    h3 {
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+
+    p {
+        font-family: $secundary;
+        font-size: 17px;
+        margin-left: 90px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:460px) and (min-width:370px){
+    .tit-principal{
+        h1{
+            font-size: 20px;
+        }
+    }
+
+    .section-modulo-1{
+        display: flex;
+        flex-direction: column;
+    }
+}
