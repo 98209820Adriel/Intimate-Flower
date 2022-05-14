@@ -5,10 +5,12 @@ Site que aborda temas especificos que explicam e auxiliam no entendimento de mui
 
 ![Capturar](https://user-images.githubusercontent.com/87943203/168417278-b1764bda-04f5-48e6-9b59-76c1db6a1426.PNG)
 
+
+
+
+
+site feito com tecnicas de sass e totalmente responsivo e conta com site no ar:
+
+link: https://98209820adriel.github.io/Intimate-Flower/
+
 ![image](https://user-images.githubusercontent.com/87943203/168417410-f8380cc4-4824-42b4-a045-db94d788c07c.png)
-
-
-
-site feito com tecnicas de sass e totalmente responsivo e conta com site no ar:https://98209820adriel.github.io/Intimate-Flower/
-
-link: 
